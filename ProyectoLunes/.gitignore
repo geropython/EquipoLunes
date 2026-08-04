@@ -1,0 +1,87 @@
+# Unity / project cache
+.utmp/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+*.log
+
+# Unity-generated memory / recording data
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Blender import temp files
+*.blend1
+*.blend1.meta
+
+# Unity crash / runtime artifacts
+sysinfo.txt
+mono_crash.*
+
+# Build outputs
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# Test play mode artifacts
+InitTestScene*.unity*
+
+# Addressables generated files
+/ServerData
+/[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/link.xml*
+/[Aa]ssets/Addressables_Temp*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+
+# Visual Scripting generated files
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+
+# Auto-generated scenes and caches
+/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+/[Aa]ssets/[Ss]ceneDependencyCache*
+
+# IDE / editor local state
+.vs/
+.vscode/
+.idea/
+.gradle/
+ExportedObj/
+.consulo/
+*.DotSettings.user
+*.suo
+*.user
+*.userprefs
+*.tmp
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Generated project files (keep source and meta assets tracked)
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+
+# Unity meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional: ignore JetBrains Rider plugin if you do not want local editor plugin files
+/[Aa]ssets/Plugins/Editor/JetBrains*
