@@ -227,6 +227,7 @@ MonoBehaviour:
   Hora: 6.6
   Sol: {fileID: 801986092}
   TextoHora: {fileID: 0}
+  LimitTime: {fileID: 0}
   DuracionDelDiaEnMinutos: 24
 --- !u!4 &194216633
 Transform:
