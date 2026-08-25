@@ -16,5 +16,11 @@ public class EnterScript : MonoBehaviour
             Debug.Log("Entraste a la Casa.");
             SceneManager.LoadScene("Casa");
         }
+        //Para salir de la escuela, de la casa y volver al mapa
+        if (other.CompareTag("Player") && tag == "Exit")
+        {
+            Debug.Log("Salida.");
+            SceneManager.LoadScene("Main_Scene");
+        }
     }
 }

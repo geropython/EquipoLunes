@@ -10,6 +10,7 @@ public class CicloDiaNoche : MonoBehaviour
     public float DuracionDelDiaEnMinutos = 10f;
     private float SolX;
     private bool stopTime = false;
+    private bool timePaused = false;
 
     private void Start()
     {
@@ -26,7 +27,7 @@ public class CicloDiaNoche : MonoBehaviour
 
     private void Update()
     {
-        if (stopTime) return;
+        if (stopTime || timePaused) return;
 
         Hora += Time.deltaTime * (24f / (60f * DuracionDelDiaEnMinutos));
         if (Hora >= 12f)
@@ -39,6 +40,12 @@ public class CicloDiaNoche : MonoBehaviour
         RotacionSol();
         ActualizarUI();
     }
+
+    public void SetTimePaused(bool paused)
+    {
+        timePaused = paused;
+    }
+
     void RotacionSol()
     {
         SolX = 15 * Hora;
