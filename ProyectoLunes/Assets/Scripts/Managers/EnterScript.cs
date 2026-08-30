@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnterScript : MonoBehaviour
 {
@@ -9,19 +10,19 @@ public class EnterScript : MonoBehaviour
         if (CompareTag("TriggerSchool"))
         {
             Debug.Log("Entraste a la Escuela.");
-            GameManager.Instance.CargarEscena("Escuela");
+            SceneManager.LoadScene("Escuela");
         }
         // Casa
         if (CompareTag("TriggerHouse"))
         {
             Debug.Log("Entraste a la Casa.");
-            GameManager.Instance.CargarEscena("Casa");
+            SceneManager.LoadScene("Casa");
         }
         // Salir
         if (CompareTag("Exit"))
         {
             Debug.Log("Salida.");
-            GameManager.Instance.CargarEscena("Main_Scene");
+            SceneManager.LoadScene("Main_Scene");
         }
     }
 }
