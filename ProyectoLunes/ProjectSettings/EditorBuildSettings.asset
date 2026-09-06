@@ -9,14 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Main_Menu.unity
     guid: 1c5d0f347bbff8941bdeb8cec496526d
   - enabled: 1
-    path: Assets/Scenes/Main_Scene.unity
-    guid: 71cbc8e2bbc5bca478557ae93a08621e
-  - enabled: 1
     path: Assets/Scenes/Casa.unity
     guid: 2fa5c90f75c4ff04ebfc4b404ae5e0a8
   - enabled: 1
+    path: Assets/Scenes/Main_Scene.unity
+    guid: 71cbc8e2bbc5bca478557ae93a08621e
+  - enabled: 1
     path: Assets/Scenes/Escuela.unity
-    guid: 5b283f5a67191d6418590317f0db6ffa
+    guid: 4967bff77ed4b414f8268fbe03870e0d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
